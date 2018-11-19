@@ -63,7 +63,7 @@ end
 def runner
   # code runner here
   welcome;
-  initial_round;
+  initial_total = initial_round;
   card_total = hit? (initial_round);
   until card_total == 21
     hit? (card_total);
